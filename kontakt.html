@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Happy Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta charset="utf-8">
+	<meta name="description" content="Pomoć pri dekorisanju vašeg doma.">
+	<meta name="author" content="Jelena Korugić">
+	<meta name="keywords" content="enterijer,kuca,dekor,uredjenje,renoviraanje" />
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta name="robots" href="robots.txt" content="index,follow" /> <!-- ISPRAVI NA KRAJU -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-compatible" content="IE-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="sve">
+		<div id="drustmreze">
+			<a target="_blank" href="sitemap.xml">
+				<div class="dm"><i class="fa fa-sitemap"></i>
+			</a>
+		</div>
+			<a target="_blank" href="rss.xml">
+				<div class="dm"><i class="fa fa-rss"></i></div>
+			</a>
+		
+		<a target="_blank" href="https://www.instagram.com">
+			<div class="dm"><i class="fa fa-instagram"></i></div>
+		</a>
+		
+		<a target="_blank" href="https://www.facebook.com">
+			<div class="dm"><i class="fa fa-facebook"></i></div>
+		</a>
+	</div>
+	<div id="gore">
+		<div id="ime">
+			<div id="naslov">
+				<h1>HAPPY HOME</h1>
+			</div>
+		</div>
+		<div id="logo"><a href="index.html"><img src="images/logo.jpg" alt="logo" /></a></div>
+	</div>
+		<div id="sredina">
+			<nav id="meni">
+				<ul>
+					<li class="alink"><a href="index.html">Home</a></li>
+					<li class="alink"><a href="usluge.html">Usluge</a></li>
+					<li class="alink"><a href="galerija.html">Galerija</a></li>
+					<li class="alink"><a href="kontakt.html">Kontakt</a></li>
+					<li class="alink"><a href="o_autoru.html">O autoru</a></li>
+				</ul>
+			</nav>
+			<div id="velikaforma">
+				<form action="#" method="get" name="forma" id="forma">
+					<table style="margin:20px auto;">
+						<tr>
+							<td class="tpod">Ime i prezime:</td>
+							<td>
+								<input type="text" class="text-box" id="imeprezime" name="imeprezime" />
+							</td>
+						</tr>
+						<tr>
+							<td class="tpod">Email:</td>
+							<td><input type="email" class="text-box" id="email" name="email" /></td>
+						</tr>
+						<tr>
+							<td class="tpod">Tip:</td>
+							<td>
+								<input type="radio" name="tip" id="stan" value="s" /> Stan<br />
+								<input type="radio" name="tip" id="prostorija" value="p" />Prostorija<br />
+							</td>
+						</tr>
+						<tr>
+							<td class="tpod">Vrsta:</td>
+							<td>
+								<select class="lista" id="vrstaprostorije" name="vrstaprostorije">
+									<option value="0">Izaberi...</option>
+									<option value="j">Dnevna soba</option>
+									<option value="d">Soba za spavanje</option>
+									<option value="t">Dečiji kutak</option>
+									<option value="c">Dečija soba</option>
+									<option value="p">Kuhinja</option>
+									<option value="s">Kupatilo</option>
+									<option value="o">Terasa</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="paketi">Paket:</td>
+							<td>
+								<input type="checkbox" id="decopaket" value="deco" /> DECO paket<br />
+								<input type="checkbox" id="enterijerpaket" value="ent" /> ENTERIJER paket<br />
+							</td>
+						</tr>
+						<tr>
+							<td class="tpod">Pitanja:</td>
+							<td>
+								<textarea id="txta" name="txtapolje1" cols="23" rows="7"> </textarea>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="submit" value="Ok" class="dugme" id="ok" name="ok" />
+								<input type="reset" value="Poništi" class="dugme" id="ponisti" name="ponisti" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<footer id="dole"> CopyRight &copy; JelenaKorugic 81/17</footer>
+	</div>
+</body>
+
+</html>

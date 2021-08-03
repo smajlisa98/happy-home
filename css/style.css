@@ -1,0 +1,324 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+@font-face
+{
+	src: url('Roboto-Regular.ttf');
+	font-family:'mojFont';
+}
+
+body
+{
+	font-family: 'mojFont';
+	font-size: 14px;
+	color: #666;
+}
+ul {
+	list-style-type: none;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ff0066;
+}
+
+p{
+	padding: 10px 0px;
+	font-size: 17px;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+	width: 200px;
+	height: 40px;
+	border: none;
+	background: rgb(77, 151, 28);
+	color: #fff;
+	box-shadow: 1px 1px 3px #000;
+	cursor: pointer;
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+	background: rgb(84, 172, 25);
+	transition: background 0.4s;
+}
+
+.kliner{
+	clear:both;
+}
+
+#sve{
+	width:1024px;
+	margin:0 auto;
+}
+
+#gore{
+	width:100%;
+	min-height: 250px;
+	margin:0 auto;
+}
+
+#ime{
+	width:100%;
+	margin:0 auto;
+}
+
+#ime h1{
+	color: #ff0066;
+	text-align: center;
+	padding: 20px 0px;
+	font-size: 45px;
+}
+
+#naslov{
+	width:100%;
+	margin:0 auto;
+	padding-top:30px;
+
+}
+
+#logo{
+	width:120px;
+	height:120px;
+	margin:0 auto;
+}
+#meni{
+	border-bottom: 1px solid #666;
+}
+#meni ul{
+	display: flex;
+	justify-content: space-between;
+}
+#meni li {
+	width: 25%;
+	display: inline;
+	border-right: 1px solid #666;
+	text-align: center;
+}
+#meni li:last-child{
+	border-right: none;
+}
+#meni ul li a {
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 30px;
+	
+}
+#meni ul li a:hover{
+	width: 100%;
+	background: #ee4085;
+	color: #fff;
+	transition: all 0.3s;
+}
+#velikaslika{
+	width: 100%;
+	height: 550px;
+	margin: 20px 0px;
+	background: url('../images/slika1.jpg') no-repeat;
+	background-size: cover;
+	border-radius:3% 21%;
+}
+.tekst{
+	text-align:center;
+
+}
+
+.tekst h2{
+	font-size:22px;
+	word-spacing:8px;
+	border-bottom: 1px dotted #ee4085;
+	margin-bottom: 10px;
+	padding: 5px 0px;
+	color:#ff0066;
+}
+.tekst .text-unutra{
+	padding: 20px 30px;
+}
+.tekst .text-unutra p{
+	font-size: 17px;
+	width: 60%;
+	padding: 40px 0px;
+	text-align: right;
+	float: right;
+}
+.tekst .text-unutra h2{
+	text-align: right;
+}
+.tekst:nth-child(even) .text-unutra h2{
+	text-align: left;
+}
+.tekst:nth-child(even) .text-unutra p{
+	float: left;
+	text-align: left;
+}
+
+
+#drustmreze{
+	width: 100%;
+	display: flex;
+	border-bottom:1px dashed  #ff0066;
+}
+
+.dm{
+	padding: 20px;
+	text-align:center;
+	font-size:30px;
+	color:#ff0066
+}
+.dm .fa{
+	transition: color 0.4s;
+}
+.dm .fa-sitemap:hover{
+	color: #666;
+}
+.dm .fa-rss:hover{
+	color: rgb(241, 121, 8);
+}
+.dm .fa-instagram:hover{
+	color: rgb(148, 8, 241);
+}
+
+.dm .fa-facebook:hover{
+	color: rgb(8, 82, 241);
+}
+
+#dole{
+	padding: 40px;
+	border-top:1px dashed #ff0066;
+	text-align: center;
+}
+
+#clanak{
+	width: 100%;
+	padding: 50px 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.mclanak{
+	width: 40%;
+	box-shadow:3px 3px 10px #aaa;
+	background-color:#ffe6ff;
+	float:left;
+	text-align:center;
+	padding: 20px;
+}
+
+.mclanak h2{
+	padding: 20px;
+	font-size: 30px;
+}
+
+.mclanak h3{
+	padding: 20px;
+	font-size: 19px;
+}
+.mclanak ul{
+	list-style-type: '-';
+}
+.mclanak li{
+	text-align: left;
+	padding: 20px;
+	font-size: 16px;
+}
+
+#omeni{
+	padding: 90px 10px;
+	min-height: 400px;
+	display: flex;
+}
+#tekstomeni{
+	margin:0 auto;
+	padding:40px 20px;
+
+}
+#tekstomeni h3, #tekstomeni p{
+	text-align: right;
+}
+#tekstomeni h3{
+	font-size: 27px;
+	padding: 20px 30px;
+}
+#tekstomeni p{
+	font-size: 17px;
+	padding: 10px 30px;
+}
+.red{
+	min-height:300px;
+	/*border:3px dashed black; */
+	margin:0 auto;
+	padding-top:20px;
+
+}
+.slicica{
+	width:250px;
+	height:250px;
+	border-radius:50% 50%;
+	float:right;
+	margin-right:53px;
+	transition: 0.4s ease-in;	
+}
+.slicica#jedan{
+	background-image:url("../images/slicica11.jpg");
+}
+.slicica#dva{
+	background-image:url("../images/slicica22.jpg");
+}
+.slicica#tri{
+	background-image:url("../images/slicica33.jpg");
+}
+.slicica#cetiri{
+	background-image:url("../images/slicica44.jpg");
+}
+.slicica#pet{
+	background-image:url("../images/slicica55.jpg");
+}
+.slicica#sest{
+	background-image:url("../images/slicica66.jpg");
+}
+
+ .red .slicica:hover {
+	transform: scale(1.1);
+}
+
+#velikaforma{
+	margin:30px auto;
+	box-shadow:4px 4px 10px #ee4085;
+	width:700px;
+	background-color:#ffe6ff;
+	padding: 20px 0;
+}  
+#velikaforma table tr td, #velikaforma table tr th{
+	padding: 10px;
+} 
+#velikaforma table tr td input[type="text"], #velikaforma table tr td input[type="email"],  #velikaforma table tr td select, #velikaforma table tr td textarea{
+	width: 100%;
+	height: 30px;
+	resize: none;
+	border: 1px solid #ccc;
+	padding: 0px 10px;
+}
+#velikaforma table tr td textarea{
+	height: 200px;
+}
+
+.mclanak ul li{
+	font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

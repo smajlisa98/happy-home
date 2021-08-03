@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+		<channel>
+			<item>
+				<title>Home</title>
+				<decription>Dizajn enterijera</decription>
+				<link>#</link>
+			</item>
+			<item>
+				<title>Usluge</title>
+				<description>Usluge koje nudimo.</description>
+				<link>#</link>
+			</item>
+			<item>
+				<title>Galerija</title>
+				<description>Pogledajte nase radove.</description>
+				<link>#</link>
+			</item>
+			<item>
+				<title>Kontakt</title>
+				<description>Kontaktirajte nas.</description>
+				<link>#</link>
+			</item>
+			<item>
+				<title>O_autoru</title>
+				<description>Nesto o meni.</description>
+				<link>#</link>
+			</item>
+		</channel>
+	</rss>
